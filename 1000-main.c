@@ -51,10 +51,10 @@ int main(void)
     deck_node_t *deck;
 
     deck = init_deck(cards);
-    print_deck(deck);
-    printf("\n");
-    sort_deck(&deck);
-    printf("\n");
-    print_deck(deck);
-    return (0);
+   print_deck(deck);
+printf("\n");
+sort_deck(&deck);
+printf("\n");
+print_deck(deck);
+return (0);
 }
